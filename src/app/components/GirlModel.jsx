@@ -22,7 +22,7 @@ export function GirlModel(props) {
   },[actions])
 
   return (
-    <group {...props} ref={group} dispose={null} position={[-0.2,-1.1,-0.25]} rotation-x={0.3} rotation-y={0.1}>
+    <group {...props} ref={group} dispose={null} position={[-0.2,-1.1,-0.2]} rotation-x={0.3} rotation-y={0.1}>
       <primitive object={nodes.Hips} />
       <skinnedMesh
         geometry={nodes.Wolf3D_Hair.geometry}
